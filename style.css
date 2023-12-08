@@ -29,6 +29,7 @@ main h2 {
 }
 
 button {
+  display: flex;
   background-color: transparent;
   border: 2px solid #7B7B8F;
   color: #fff;
@@ -37,7 +38,9 @@ button {
   font-size: 16px;
   text-transform: uppercase;
   transition: all 0.3s ease;
-  margin: auto;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 
 button:hover {
