@@ -5,7 +5,9 @@ class Szokirako:
     def __init__(self, root):
         self.root = root
         self.root.title("Szókirakó")
-        self.root.geometry("400x250")
+        self.root.geometry("400x300")
+        self.Név=tk.Label(self.root, text="Szókirakó játék", font=("Arial", 24))
+        self.Név.pack(pady=5)
         self.szavak = ["alma", "körte", "barack", "szilva", "eper"]  # Példaként néhány szó
 
         self.kitalalandóSzo = random.choice(self.szavak)
