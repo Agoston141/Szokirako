@@ -8,12 +8,6 @@ body {
   margin: 0;
 }
 
-header {
-  background-color: #333;
-  padding: 20px;
-  text-align: center;
-}
-
 main h1 {
   font-size: 80px;
   margin: 0;
@@ -38,7 +32,7 @@ button {
   font-size: 16px;
   text-transform: uppercase;
   transition: all 0.3s ease;
-  margin: 0 auto;
+  margin: 20px auto;
   justify-content: center;
   align-items: center;
   
@@ -50,37 +44,36 @@ button:hover {
 }
 
 main {
-  padding: 40px;
+  padding: 20px;
 }
 
 .about {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .about h2 {
-  font-size: 24px;
+  font-size: 30px;
   margin-bottom: 20px;
+  padding-bottom: 20px;
   text-align: center;
 }
 
 .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .image img {
   width: 75%;
-  border-radius: 30px;
-  padding-right: 20px;
+  border-radius:15%;
 }
 
 .text {
-  width: 60%;
+  width: 70%;
 }
 
 .text p {
-  font-size: 16px;
+  font-size: 21px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
