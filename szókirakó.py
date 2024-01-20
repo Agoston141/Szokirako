@@ -6,7 +6,7 @@ class BetuvarazsJatek:
     def __init__(self, root):
         self.root = root
         self.root.title("Betűvarázs Játék")
-        self.root.configure(bg="cyan")
+        self.root.configure(bg="antiquewhite")
 
         self.pontszam = 0
         self.remaining_time = 30
@@ -17,10 +17,10 @@ class BetuvarazsJatek:
         self.kovetkezo_szo()
 
     def keszit_ui(self):
-        self.lbl_pontszam = tk.Label(self.root, text="Pontszám: 0", font=("Helvetica", 16))
+        self.lbl_pontszam = tk.Label(self.root, text="Pontszám: 0", font=("Helvetica", 16),background=("antiquewhite"))
         self.lbl_pontszam.pack(pady=10)
 
-        self.lbl_szoveg = tk.Label(self.root, text="", font=("Helvetica", 24))
+        self.lbl_szoveg = tk.Label(self.root, text="", font=("Helvetica", 24),background=("antiquewhite"))
         self.lbl_szoveg.pack(pady=20)
 
         self.entry_tipp = tk.Entry(self.root, font=("Helvetica", 18),)
@@ -29,7 +29,7 @@ class BetuvarazsJatek:
         self.btn_tippel = tk.Button(self.root, text="Tippelés", command=self.ellenoriz_tippet, cursor=("hand2"))
         self.btn_tippel.pack(pady=10)
 
-        self.lbl_hatralevo_ido = tk.Label(self.root, text="Idő: 30", font=("Helvetica", 16))
+        self.lbl_hatralevo_ido = tk.Label(self.root, text="Idő: 30", font=("Helvetica", 16),background=("antiquewhite"))
         self.lbl_hatralevo_ido.pack(pady=10)
 
         self.root.after(1000, self.csokkent_idot)
