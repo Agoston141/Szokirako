@@ -59,6 +59,7 @@ class BetuvarazsJatek:
             self.lbl_hatralevo_ido.config(text="Idő: 0")
             self.btn_tippel.config(state=tk.DISABLED,cursor=("arrow"))
             self.entry_tipp.config(state=tk.DISABLED)
+            self.lbl_szoveg.config(text="Az idő lejárt!\nJáték vége!")
 
 
 if __name__ == "__main__":
