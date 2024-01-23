@@ -7,6 +7,7 @@ class BetuvarazsJatek:
         self.root = root
         self.root.title("Betűvarázs Játék")
         self.root.configure(bg="antiquewhite")
+        self.root.geometry("500x400")
 
         self.pontszam = 0
         self.remaining_time = 30
